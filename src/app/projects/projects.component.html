@@ -1,0 +1,13 @@
+<div class="projects-header">
+  <h2>PROJECTS</h2>
+  <hr class="projects-underline">
+</div>
+
+<div class="projects-container">
+  <div *ngFor="let project of projects" class="project-card">
+    <h3>{{ project.projectTitle }}</h3>
+    <p>{{ project.projectDescription }}</p>
+    <a [href]="project.projectLink" class="view-project-btn" target="_blank">View</a>
+  </div>
+
+</div>

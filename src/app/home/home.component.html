@@ -1,0 +1,18 @@
+<section
+  id="home"
+  class="d-flex flex-column justify-content-center align-items-center"
+>
+  <div class="hero-container aos-init aos-animate" data-aos="fade-in">
+    <h1 class="mt-3">{{ name }}</h1>
+    <p>
+      I am a <span class="typed">{{ titleHome }}</span>
+    </p>
+  </div>
+
+  <button class="my-resume">
+    <a [href]="cvLink" target="_blank" class="resume-link">
+      Get Resume
+    </a>
+    <i class="fa-solid fa-circle-arrow-down"></i>
+  </button>
+</section>

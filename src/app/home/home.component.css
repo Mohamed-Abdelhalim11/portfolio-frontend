@@ -1,0 +1,58 @@
+
+#home {
+  width: 100%;
+  height: calc(100vh - 130px); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0a1120 30%, #14283e 70%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#home p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  display: block;
+}
+
+h1 {
+  color: #fff;
+}
+
+#home p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+
+.my-resume {
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.my-resume .resume-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-right: 8px;
+}
+
+.my-resume i {
+  color: white;
+  font-size: 18px;
+}
+
+.my-resume:hover {
+  background-color: #0056b3;
+}
+

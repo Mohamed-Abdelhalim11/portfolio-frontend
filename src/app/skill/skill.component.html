@@ -1,0 +1,21 @@
+<div class="skills-header">
+  <h2>my skills</h2>
+  <hr class="skills-underline">
+</div>
+
+<div class="skills-container">
+
+  <div class="skills-section">
+    <h3>Soft Skills</h3>
+    <ul>
+      <li *ngFor="let skill of softSkills">{{ skill }}</li>
+    </ul>
+  </div>
+
+  <div class="skills-section">
+    <h3>Technical Skills</h3>
+    <ul>
+      <li *ngFor="let skill of techSkills">{{ skill }}</li>
+    </ul>
+  </div>
+</div>
